@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Saiora — AI Solutions and Complex Systems for Business",
-    "description": "We build AI solutions and complex project components: analytics, recommendations, and document automation."
+    "title": "Saiora — AI Solutions",
+    "description": "We build AI solutions and tackle the most complex parts of digital products"
   },
   "nav": {
     "services": "Services",
@@ -11,8 +11,8 @@
   },
   "hero": {
     "title": "AI Solutions",
-    "subtitle": "We specialize in building the most complex parts of digital products.",
-    "cta": "Discuss a Project"
+    "subtitle": "We specialize in building algorithmically complex components of digital products.",
+    "cta": "Discuss Your Project"
   },
   "services": {
     "title": "What We Do",
@@ -22,11 +22,11 @@
     },
     "recommendations": {
       "title": "Recommendation Systems",
-      "description": "...that deliver useful suggestions when they matter most."
+      "description": "... that deliver timely, relevant suggestions when they matter most to your business."
     },
     "documents": {
       "title": "Document Processing Automation",
-      "description": "Data extraction, OCR, and information structuring."
+      "description": "Data extraction, OCR, and work with unstructured information."
     }
   },
   "whyUs": {
@@ -52,7 +52,7 @@
     "title": "Founders",
     "aybek": {
       "name": "Aybek Djuraev",
-      "role": "Leading (CEO)",
+      "role": "Leadership (CEO)",
       "description": "Founded multiple operating companies.\nHas experience building businesses from scratch."
     },
     "luiza": {
@@ -63,19 +63,19 @@
     "victor": {
       "name": "Victor Tkachev",
       "role": "Solution Development (CTO)",
-      "description": "9 years as CTO at a Y-Combinator-backed company.\nQuant experience in investment banks and a strong mathematical background."
+      "description": "9 years as CTO at a Y Combinator-backed company.\nQuant experience at investment banks and a strong mathematical background."
     }
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Choose a convenient channel or send your task using the form.",
+    "subtitle": "Choose a convenient channel or send us your task through the form.",
     "telegram": "Telegram",
     "email": "Email",
     "phone": "Phone",
     "form": {
       "name": "Name",
       "contact": "How can we reach you",
-      "contactPlaceholder": "Email or phone",
+      "contactPlaceholder": "Email, Telegram, phone...",
       "task": "Describe your task",
       "button": "Send"
     }
