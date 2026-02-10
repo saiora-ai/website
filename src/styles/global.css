@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -21,4 +22,11 @@ body {
 
 a {
   color: inherit;
+}
+
+.brand-logo-text {
+  font-family: "Exo 2", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
 }

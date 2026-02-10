@@ -11,9 +11,8 @@ const switchLocale = locale === 'ru' ? 'en' : 'ru';
 
 <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
   <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-    <a href={getLocalePath(locale)} class="flex items-center gap-3 font-semibold tracking-wide text-slate-900">
-      <img src="/images/logo.svg" alt="Saiora logo" class="h-8 w-8" />
-      <span>SAIORA</span>
+    <a href={getLocalePath(locale)} class="flex items-center font-semibold tracking-wide text-slate-900">
+      <span class="brand-logo-text">Saiora</span>
     </a>
     <div class="hidden items-center gap-5 md:flex">
       <nav class="flex items-center gap-6 text-base text-slate-600">
