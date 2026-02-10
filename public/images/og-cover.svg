@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#E0F2FE" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="140" r="180" fill="#0EA5E9" fill-opacity="0.25"/>
+  <circle cx="860" cy="510" r="220" fill="#06B6D4" fill-opacity="0.2"/>
+  <text x="120" y="280" fill="#0C4A6E" font-size="78" font-family="Inter, Arial, sans-serif" font-weight="700">SAIORA</text>
+  <text x="120" y="360" fill="#0369A1" font-size="42" font-family="Inter, Arial, sans-serif">AI solutions for business</text>
+</svg>

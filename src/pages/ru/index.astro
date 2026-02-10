@@ -1,0 +1,25 @@
+---
+import Contact from '../../components/Contact.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import Hero from '../../components/Hero.astro';
+import Services from '../../components/Services.astro';
+import Team from '../../components/Team.astro';
+import WhyUs from '../../components/WhyUs.astro';
+import { t } from '../../i18n/ui';
+import Layout from '../../layouts/Layout.astro';
+
+const locale = 'ru' as const;
+---
+
+<Layout locale={locale} title={t(locale, 'seo.title')} description={t(locale, 'seo.description')}>
+  <Header locale={locale} />
+  <main>
+    <Hero locale={locale} />
+    <Services locale={locale} />
+    <WhyUs locale={locale} />
+    <Team locale={locale} />
+    <Contact locale={locale} />
+  </main>
+  <Footer locale={locale} />
+</Layout>

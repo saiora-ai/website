@@ -1,0 +1,53 @@
+---
+import { getLocalePath, t, type Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const switchLocale = locale === 'ru' ? 'en' : 'ru';
+---
+
+<header class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+    <a href={getLocalePath(locale)} class="flex items-center gap-3 font-semibold tracking-wide text-slate-900">
+      <img src="/images/logo.svg" alt="Saiora logo" class="h-8 w-8" />
+      <span>SAIORA</span>
+    </a>
+    <div class="hidden items-center gap-5 md:flex">
+      <nav class="flex items-center gap-6 text-sm text-slate-600">
+        <a href="#services" class="transition hover:text-sky-700">{t(locale, 'nav.services')}</a>
+        <a href="#why-us" class="transition hover:text-sky-700">{t(locale, 'nav.whyUs')}</a>
+        <a href="#team" class="transition hover:text-sky-700">{t(locale, 'nav.team')}</a>
+        <a href="#contact" class="transition hover:text-sky-700">{t(locale, 'nav.contact')}</a>
+      </nav>
+      <a
+        href={getLocalePath(switchLocale)}
+        class="rounded-full border border-[#8cc3f1] bg-[#8cc3f1] px-3 py-1 text-xs font-medium uppercase tracking-wide text-slate-900 transition hover:bg-[#7db8ea]"
+      >
+        {locale === 'ru' ? 'EN' : 'RU'}
+      </a>
+    </div>
+
+    <details class="group relative md:hidden">
+      <summary class="list-none rounded-lg border border-[#8cc3f1] bg-[#8cc3f1] px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-900">
+        Menu
+      </summary>
+      <div class="absolute right-0 mt-2 w-52 rounded-xl border border-slate-200 bg-white p-3 shadow-xl">
+        <nav class="flex flex-col gap-1 text-sm text-slate-700">
+          <a href="#services" class="rounded-lg px-3 py-2 hover:bg-slate-100">{t(locale, 'nav.services')}</a>
+          <a href="#why-us" class="rounded-lg px-3 py-2 hover:bg-slate-100">{t(locale, 'nav.whyUs')}</a>
+          <a href="#team" class="rounded-lg px-3 py-2 hover:bg-slate-100">{t(locale, 'nav.team')}</a>
+          <a href="#contact" class="rounded-lg px-3 py-2 hover:bg-slate-100">{t(locale, 'nav.contact')}</a>
+          <a
+            href={getLocalePath(switchLocale)}
+            class="mt-1 rounded-lg border border-[#8cc3f1] bg-[#8cc3f1] px-3 py-2 text-center text-xs font-semibold uppercase tracking-wide text-slate-900 hover:bg-[#7db8ea]"
+          >
+            {locale === 'ru' ? 'Switch to English' : 'Переключить на русский'}
+          </a>
+        </nav>
+      </div>
+    </details>
+  </div>
+</header>
