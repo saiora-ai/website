@@ -68,14 +68,15 @@
   },
   "contact": {
     "title": "Свяжитесь с нами",
-    "subtitle": "Выберите удобный канал или отправьте задачу через форму.",
+    "subtitle": "Выберите удобный канал или отправьте свою задачу нам:",
     "telegram": "Telegram",
     "email": "Email",
+    "phoneTelegram": "Телефон, Telegram",
     "phone": "Телефон",
     "form": {
       "name": "Имя",
       "contact": "Как с вами связаться",
-      "contactPlaceholder": "Email, телеграм, телефон...",
+      "contactPlaceholder": "Email/телефон/Телеграм/...",
       "task": "Опишите задачу",
       "button": "Отправить"
     }

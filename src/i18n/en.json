@@ -68,14 +68,15 @@
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Choose a convenient channel or send us your task through the form.",
+    "subtitle": "Choose a convenient channel or send us your task:",
     "telegram": "Telegram",
     "email": "Email",
+    "phoneTelegram": "Phone, Telegram",
     "phone": "Phone",
     "form": {
       "name": "Name",
       "contact": "How can we reach you",
-      "contactPlaceholder": "Email, Telegram, phone...",
+      "contactPlaceholder": "Email/phone/WhatsApp/...",
       "task": "Describe your task",
       "button": "Send"
     }
